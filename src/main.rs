@@ -1,3 +1,12 @@
+/*
+    A programme to search for string in file.
+    Options:
+        -i: case insensitive search
+        -n: line number and file name 
+        -r: recursive search on subfolders
+            Using -r includes -n options
+        -h: Help ?
+*/
 use std::env;
 use std::process;
 
